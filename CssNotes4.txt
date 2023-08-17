@@ -1,0 +1,41 @@
+Casscading 
+
+<ol>
+    <li>One</li>
+    <li style="color: red">Two</li>
+    <li>Three</li>
+</ol>
+
+li{
+    color: green;
+}
+
+-one and three would turn green except two since there is a cascade in the code
+-css made in the html are the internal styles by the style tag or inline style 
+
+Four broad catergoeries overall importance
+-Position
+li{
+    color: red;
+    color: green;
+}
+-lower down in external or in internal file, the more important it is 
+if we look at it at the cascade 
+-the lower down the file, the rule is the more important
+
+-Specificity
+<li id="first-id" class="first-class" draggable>
+
+li {color: blue;}
+.first-class {color: red;}
+li[draggable] {color: purple;}
+#first-id {color: orange;}
+-all listed in order
+-the order is:
+    -element (4)
+    -class (3)
+    -attribute (2)
+    -id (1)
+
+-Type
+-Importance
