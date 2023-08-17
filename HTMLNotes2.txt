@@ -1,0 +1,42 @@
+Nesting And Indentation
+
+You can nest an Unordered list withing a unordere/ ordered list.
+
+-Example
+<ul>
+<li></li>
+<li></li>
+<li>
+    <ul>
+    <li></li>
+    <li></li>
+    <li></li>
+    </ul>
+    </li>
+        <li></li>
+</ul>
+
+Anchor Elements and HyperLinks
+
+-HTML Atrributes
+<tag attribute=value>Content</tag>
+
+-To add more attributes, add a space in between
+<tag attribute=value anotherAttribute=Value>Content</tag>
+
+-Example
+<a>This is a link</a>
+-code wont work as a link
+
+-Example
+<a href="https://www.google.com/">This is a link</a>
+-now the link will work in code
+
+Image Elements
+
+-Example
+<img src="url"/>
+-src (source)
+
+-Have an alt attribute
+<img src="url" alt="forest at sunset"/>

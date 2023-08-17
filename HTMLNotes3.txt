@@ -1,0 +1,41 @@
+File Paths
+
+Files vs folders 
+
+Two types
+Absolute file paths or relative file paths
+
+-It'll start from the root of the folder 
+
+C:/Project/Images/cat.ong
+
+-relative file paths are shorter
+
+Images/cat.png
+
+Special Characters
+
+-Up a level
+../essay.docx
+
+-stays in the current directory
+./dog.png
+
+Web Pages
+
+-add in the anchor tags for different web pages
+<a href="./about.html">About Page</a>
+
+The HTML boilerplate
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>My Website</title>
+    </head>
+        <body>
+            <h1>Hello World</h1>
+        </body>
+</html>
+
+- hit ! and enter, it'll give the boilerplate 

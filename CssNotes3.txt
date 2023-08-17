@@ -1,0 +1,57 @@
+Css Colors
+
+-h1{
+    color: #5D3891 
+}
+-can use multiple Colours
+-can use named colour or hex code
+-use color hunt for colour pallet
+
+Font
+-Can set the font size at any size
+-1px (1/96th inch)
+-1pt (1/72nd inch)
+-1em (100% of parent)
+-1rem (100% root)
+
+Font Weight
+-normal bold (keywords)
+-lighter bolder (relative to parent)
+-number (100-900)
+
+Font Family 
+-Types of font
+h1{
+    font-family: Helvetica, sans-serif
+}
+h2{
+    font-family: "Times New Roman", serif
+}
+
+Text Align
+h1{
+    text-align: center
+}
+-left
+-right
+-center
+-start 
+-end
+
+The Box Model
+
+3 properties
+-Margin
+-Padding
+-Border
+
+-Border width can take max 4 values
+-clockwise direction
+-Padding is the sapce between the text and border
+-Margin is the the outside of the border
+
+Content Division Element
+<div></div>
+-seperate boxes
+-act as a container
+

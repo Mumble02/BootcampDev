@@ -1,0 +1,58 @@
+CSS
+
+- Cascading Style Sheets
+
+Style Sheets
+
+- Style Sheets Language
+-Html Markup
+-Sass (Syntactically Awsome Style Sheet)
+-Less (Leaner CSS)
+-Everyone uses CSS
+
+-Html 3.2 Came out in 1997
+-introduced font (size, colour, size, face) and Center element
+
+-Hakon Wium Le is the father of css.
+-Led the new recommendation the W3 consortium in 1996
+-Allows us to attach style such as font, colours, and spacing to HTML documents
+
+Inline
+-<tag style="css"/>
+-<html style="background:blue"></html>
+-Goes into the same line as html
+-targets a single element
+
+Internal
+-<style>css</style>
+-<html>
+    <head>
+        <style>
+            html{
+                background:red;
+            }
+        </style>
+    </head>
+</html>
+-Open and closing style tag
+-selecter - html{css}
+-can apply to anywhere in our HTML document
+-useful for applying it only to one HTML document
+-don't use for multiple pages
+-single web page
+
+External
+-<link href="style.css"/>
+-<html>
+    <head>
+        <link 
+            rel="stylesheet" (relationship)
+            href="./styles.css" (located)
+        />
+    </head>
+</html>
+-html{
+    background:green;
+}
+-completely seperate file
+-multi-page website

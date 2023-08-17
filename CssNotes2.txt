@@ -1,0 +1,46 @@
+Where to apply CSS
+
+-property:value
+color: blue
+-h1{
+    color: blue
+}
+-h1 is a css selecter
+
+Class Selector
+-<h2 class="red-text">Red</h2>
+-.red-text{
+    color: red
+}
+-grouping elements
+-must be the same spelling or it will not work
+-use class to select specific parts of the html to style
+
+ID Selector
+-<h2 id='main'>Red</h2>
+-#main{
+    color:red
+}
+-uses a pound sign or hastag sign
+-selects all elements with an id attribute
+
+ID Vs Class
+-Class can be many elements in a html
+-Id can only be one element in a html (unique)
+
+Atrribute Selector
+-<p draggable="true">Drag Me</p>
+-<p draggable="false">Don't Drag Me</p>
+-p[draggable]{
+    color:red
+}
+-p[draggable="false"]{
+    color: red
+}
+-all paragraph elements with draggable
+
+Universal Selector 
+-*{
+    color: red
+}
+-* means select all

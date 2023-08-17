@@ -1,0 +1,23 @@
+Paragarphs 
+
+<p></p>
+-Paragraph tags
+
+Horizontal rule element 
+-<hr />
+
+Unordered List
+<ul>
+<!--list-->
+<li></li>
+<li></li>
+<li></li>
+</ul>
+
+Ordered List
+<ol>
+<!--list-->
+<li></li> <!--1-->
+<li></li> <!--2-->
+<li></li> <!--3-->
+</ol>
